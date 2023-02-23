@@ -1,0 +1,61 @@
+.plans{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+  }
+.selected {
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+transform: scale(1.05);
+}
+.card{
+margin: 0 5px;
+}
+.card_header {
+  display: flex;
+padding: 5px;
+font-size: 1.5em;
+border-bottom: 1px solid whitesmoke;
+color: white;
+position: relative;
+height: 100px;
+margin-top: 40px;
+justify-content: center;
+align-items: center;
+}
+.card_price {
+  height: 210px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+padding: 20px;
+}
+
+.card__number {
+font-size: 5em;
+margin: 0;
+align-items:center;
+
+}
+
+.card__value {
+align-self: flex-start;
+margin-top: 35px;
+}
+.card__date {
+margin-top: 150px;
+}
+.card__speed{
+padding: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.footer {
+padding: 20px;
+background-color: rgba(247, 243, 243, 0.659);
+color: rgb(94, 93, 93);
+margin-bottom: 50px;
+}

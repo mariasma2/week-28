@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  background-color:rgba(198, 193, 193, 0.679);
+}
+
+.App-header {
+  font-size: 70px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(18, 27, 63);
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif ;
+  padding: 30px;
+}
+ 
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
